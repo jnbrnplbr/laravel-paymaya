@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5963a0c264eedc2a59cb673b26d0db20",
+    "content-hash": "8a80a6e06ebbad56bdf57b034fc06317",
     "packages": [
         {
             "name": "aceraven777/laravel-paymaya",
@@ -58,6 +58,57 @@
                 "source": "https://github.com/aceraven777/laravel-paymaya/tree/master"
             },
             "time": "2020-09-02T01:27:28+00:00"
+        },
+        {
+            "name": "adyen/php-api-library",
+            "version": "8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Adyen/adyen-php-api-library.git",
+                "reference": "6e5332997e0b0012fbbe775b913134b15aed0cfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Adyen/adyen-php-api-library/zipball/6e5332997e0b0012fbbe775b913134b15aed0cfb",
+                "reference": "6e5332997e0b0012fbbe775b913134b15aed0cfb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "monolog/monolog": ">=1.16",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dms/phpunit-arraysubset-asserts": "0.2.1",
+                "friendsofphp/php-cs-fixer": "*",
+                "php-coveralls/php-coveralls": "2.4.1",
+                "phpunit/phpunit": "9.4.0",
+                "squizlabs/php_codesniffer": "3.5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Adyen\\": "src/Adyen/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "A PHP client library for accessing Adyen APIs",
+            "homepage": "https://github.com/Adyen/adyen-php-api-library",
+            "keywords": [
+                "adyen"
+            ],
+            "support": {
+                "issues": "https://github.com/Adyen/adyen-php-api-library/issues",
+                "source": "https://github.com/Adyen/adyen-php-api-library/tree/8.0.0"
+            },
+            "time": "2020-10-09T13:53:07+00:00"
         },
         {
             "name": "asm89/stack-cors",
